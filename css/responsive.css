@@ -1,0 +1,522 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        padding: 0 30px;
+    }
+     
+    header{
+        height: 8vh;
+    }
+       
+
+      header ul li a {
+      margin: 8px 0;
+    }
+    #header-top{
+        height: 7vh;
+    }
+
+    #info  {
+        margin-top: -5px;
+    }
+  
+    #about .section-title{
+        padding-left: 20px;
+    }
+
+    #about .section-title button {
+        width: 100%;
+    }
+
+    #services {
+        height: 110vh;
+    }
+    
+    #article {
+        width: 100%;
+        height: 75vh
+    }
+
+
+    #article .article-post{
+        margin: 20px 0;
+    }
+
+    #article .article-overlay{
+        flex-wrap: wrap;
+    }
+
+    #article .section-title{
+        padding-bottom: 0;
+    }
+
+    #article .article-overlay .container{
+        width: 95%;
+    }
+
+    #article .section-title button{
+        margin-bottom: 20px;
+    }
+
+    #project .box .box-item {
+        width: 320px;
+      }
+
+
+    #project .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #project .box .box-item img {
+        height: 200px;
+    }
+
+}
+    
+
+@media screen and (max-width: 992px){
+
+
+    #slider{
+        height: 500px;
+    }
+
+    #slider .slider-desc{
+        height: 500px;
+        font-size: 30px;
+    }
+
+    #slider .slider-desc .typed span{
+        font-size: 25px;
+    }
+ 
+    #base-story .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #base-story .base-video{
+        width: 70%;
+    }
+
+    #base-story .base-story{
+        width: 70%;
+        margin-top: 15px;
+    } 
+
+    #about .about-team .about-team-item{
+        height: 300px;
+    }
+
+
+    #beauty-text .beauty-text h1{
+        font-size: 27px;
+    }
+
+    
+  #article .post {
+    margin: 50px 0;
+}
+
+#article {
+    height: 75vh;
+}
+#article .post .date h2{
+    font-size: 13px;
+}
+
+#footer .footer-content .hot-content ul li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#footer  .footer-content .portfolio ul li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#footer  .footer-content{
+    margin-bottom: 0;
+}
+
+header ul {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 180vh;
+    background: #000;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    visibility: hidden;
+}
+
+header ul.active{
+  left: 0;
+  visibility: visible;
+}
+
+
+header ul li{
+    height: auto;
+    margin: 20px 0;
+}
+
+header nav{
+align-items: center;
+}
+.toggle-menu{
+display: flex ;
+}
+}
+
+@media screen and (max-width: 768px){
+   body{
+    overflow-x: hidden;
+   }
+
+    header ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 180vh;
+        background: #000;
+        z-index: 1000;
+        flex-direction: column;
+        justify-content: center;
+        transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        visibility: hidden;
+}
+
+    header ul.active{
+      left: 0;
+      visibility: visible;
+    }
+    
+
+    header ul li{
+        height: auto;
+        margin: 20px 0;
+    }
+
+  header nav{
+    align-items: center;
+  }
+  .toggle-menu{
+    display: flex ;
+    
+  }
+
+   #header-top{
+    height: 7vh;
+   }
+
+    #info{
+        display: none;
+    }
+
+    #base-story .base-story .base-story-item{
+        flex-wrap: wrap;
+    }
+
+    #base-story .base-story .base-story-item div{
+        width: 49%;
+        margin-top: 15px;
+}
+
+#base-story .base-story .story-title p{
+    line-height: 25px;
+}
+
+#base-story .base-video::before{
+    height: 10px;
+}
+
+#base-story .base-video::after{
+    width: 10px;
+    right: 0;
+}
+
+#base-story .base-story .base-story-item div::after{
+    top: -2%;
+    left: -5%;
+}
+
+#about .about-team{
+    display: none;
+}
+
+#about .section-title{
+    width: 70%;
+}
+
+#about .row{
+    justify-content: center;
+}
+
+#beauty-text .beauty-text h1{
+    font-size: 24px;
+}
+
+#services{
+    height: 500px;
+}
+
+#article{
+     height:1400px;
+}
+
+#article .article-post{
+    flex-direction: column;
+    align-items: center;
+}
+
+#article .post{
+    width: 50%;
+}
+
+#partner ul {
+    flex-wrap: wrap;
+}
+
+#partner ul li{
+    width: 49%;
+    margin-top: 10px;
+}
+
+#project{
+    width: 100%;
+}
+
+#project .box .box-item {
+    width: 300px;
+    padding: 0 35px;
+}
+
+#footer .footer-about {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .footer-about .footer-about-title{
+    width: 70%;
+    text-align: center;
+}
+
+#footer .footer-about .footer-about-contact{
+    width: 70%;
+    margin-top: 20px;
+}
+
+#footer .footer-content{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer .footer-content div{
+    width: 70%;
+}
+
+#footer .footer-content .hot-content h3 {
+    color: #fff;
+}
+
+#footer .footer-content .quick-access h3 {
+    color: #fff;
+}
+
+#footer .footer-content .portfolio h3 {
+    color: #fff;
+}
+}
+
+@media screen and (max-width: 576px){
+
+    #header-top {
+        height: 6vh;
+      }
+
+      #header-top .header-top-massage p{
+        font-size: 12px;
+      }
+
+    #header-top .header-top-social ul{
+        width: 35%;
+    }
+
+    #slider .slider-desc{
+    font-size: 25px;
+    }
+
+    #slider .slider-desc .typed span {
+        font-size: 20px;
+    }
+
+    #base-story .base-video{
+        width: 100%;
+    }
+
+    #base-story .base-story{
+        width: 100%;
+    }
+
+    #services{
+        height: 670px;
+        padding: 10px 0;
+    }
+
+    #services .tab-button ul{
+        flex-direction: column;
+        height: 200px;
+    
+    }
+
+    #services .tab-button ul li{
+        width: 100%;
+        border: none;
+    }
+
+    #about .section-title{
+        width: 100%;
+    }
+
+    #beauty-text .beauty-text h1{
+        font-size: 16px;
+    }
+
+    #article .post{
+        width: 70%;
+    }
+
+    #footer .copy-right p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #article .section-title button {
+        left: 20px;
+    }
+
+    #article .post .post-img::before{
+        display: none;
+    }
+
+    #article .post .post-img::after{
+        display: none;
+    }
+
+    #base-story .base-story .base-story-item div::after{
+        top: -2%;
+        left: -4%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px){
+   
+      #header-top {
+        height: 6vh;
+      }
+         #header-top .header-top-massage{
+        width: 70%;
+     }
+
+    #header-top .header-top-massage p {
+        font-size: 10px;
+    }
+
+    #header-top .header-top-social ul li{
+        margin:  0 8px;
+    }
+
+    #slider{
+        width: 400px;
+    }
+
+    #slider .slider-desc{
+        font-size: 15px;
+        height: 350px;
+    }
+
+    #base-story .base-video::before{
+        display: none;
+    }
+
+
+    #base-story .base-video::after{
+        display: none;
+    }
+
+    #slider .slider-desc .typed span{
+        font-size: 15px;
+    }
+
+    #services {
+        height: 700px;
+    }
+
+    #services .tab-content .tab .content .content-img img{
+        display: none;
+    }
+
+    #services .tab-content .tab .content .content-title {
+        width: 100%;
+    }
+
+    #beauty-text .beauty-text h1{
+        text-align: center;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    #article .section-title button{
+        width: 190px;
+        margin-left: 20px;
+    }
+    #article .article-post{
+        width: 1200px;
+    }
+
+    #article .post .post-img::before{
+      display: none;
+    }
+
+    #article .post .post-img::after{
+        display: none;
+    }
+
+    #partner ul li{
+    width: 100%;
+    }
+
+
+#footer .footer-about .footer-about-title {
+    width: 100%;
+}
+
+#footer .footer-about .footer-about-contact {
+    width: 100%;
+}
+
+#footer .footer-content div{
+  width: 100%;
+}
+
+#base-story .base-story .base-story-item div::after {
+    top: -3%;
+    left: -7%;
+}
+}
